@@ -1,0 +1,17 @@
+#Formatting options
+RED=\033[0;31m
+GREEN=\033[0;32m
+BLUE=\033[0;34m
+NC=\033[0m # No Color
+BOLD=\033[1m
+
+
+#Building Targets
+default: cpp_server_client
+	@echo "\n${GREEN}${BOLD}cpp_server_client build completed${NC}"	
+
+cpp_server_client:
+	@echo "\n${BLUE}${BOLD}Building cpp_server_client libs${NC}"
+	g++ server.cpp
+
+
