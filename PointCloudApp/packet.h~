@@ -1,0 +1,12 @@
+class Packet{
+
+	public:
+		Packet(PointCloud<PointXYZRGB>);
+
+		PointCloud<PointXYZRGB> receivedCloud;
+		//float x;
+		//float y;
+		//float z;
+		//float rgba;
+
+}
