@@ -1,0 +1,4 @@
+while true
+do
+yes 0| /home/justin/Desktop/GitRepo/RGBD-Source/PointCloudApp/PointCloud
+done
