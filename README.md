@@ -15,9 +15,9 @@ cd API/
 
 c. Use the provided script "Taraminate.sh" to install the API.
 
-sudo chmod +x Taraminate.sh
+sudo chmod +x taraminate.sh
 
-sudo ./Taraminate.sh
+sudo ./taraminate.sh
 
 #### 2. Compiling the server application
 a. Make sure you are in the main directory (Taraminator_Server)
